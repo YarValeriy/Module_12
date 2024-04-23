@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "module-12"
+version = "0.1.0"
+description = ""
+authors = ["YarValeriy <147444561+YarValeriy@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+libgravatar = "^1.0.4"
+python-multipart = "^0.0.9"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
