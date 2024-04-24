@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c3906a-bef4-4525-89f1-09ba5ec56d4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Module_12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/3c51b1a9e0c3_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/6383ac736e9a_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/a02a6e537839_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/contacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/contacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
