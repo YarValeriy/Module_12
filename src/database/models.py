@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, func, Date
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql.schema import ForeignKey, Table
-from sqlalchemy.sql.sqltypes import DateTime
+from sqlalchemy.sql.sqltypes import DateTime, Boolean
 
 Base = declarative_base()
 user_m2m_contact = Table(
@@ -33,6 +33,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     username = Column(String(50))
     email = Column(String(250), nullable=False, unique=True)
+    confirmed = Column(Boolean, default=False)
     password = Column(String(255), nullable=False)
     created_at = Column('created_at', DateTime, default=func.now())
     avatar = Column(String(255), nullable=True)

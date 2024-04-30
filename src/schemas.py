@@ -1,4 +1,4 @@
-from pydantic import BaseModel, field_validator, Field
+from pydantic import BaseModel, field_validator, Field, EmailStr
 from datetime import date, datetime
 from typing import Optional
 
@@ -37,7 +37,8 @@ class ContactResponse(ContactCreate):
     created_at: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
+
 
 ...
 
@@ -56,7 +57,7 @@ class UserDb(BaseModel):
     avatar: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class UserResponse(BaseModel):
@@ -68,3 +69,7 @@ class TokenModel(BaseModel):
     access_token: str
     refresh_token: str
     token_type: str = "bearer"
+
+
+class RequestEmail(BaseModel):
+    email: EmailStr

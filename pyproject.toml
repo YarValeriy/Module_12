@@ -16,6 +16,11 @@ passlib = "^1.7.4"
 python-jose = "^3.3.0"
 psycopg2 = "^2.9.9"
 alembic = "^1.13.1"
+python-dotenv = "^1.0.1"
+redis = "^5.0.4"
+aioredis = "^2.0.1"
+cloudinary = "^1.40.0"
+django-environ = "^0.11.2"
 
 
 [build-system]
